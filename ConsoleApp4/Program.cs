@@ -9,7 +9,9 @@ namespace nnn
         static void Main(string[] args)
         {
             nnn_sevice nnns = new nnn_sevice();
-            nnns.startProcess("taskmgr.exe");
+            nnns.register("email", "password");
+            nnns.register("email", "password");
+            nnns.register("email", "password");
         }
     }
 }
